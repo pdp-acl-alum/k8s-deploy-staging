@@ -44,7 +44,7 @@ pipeline {
       }
     }
     // DO NOT uncomment until 06_04 Lab
-    
+    // no added functionality
     stage('DT Deploy Event') {
       steps {
         container("curl") {
